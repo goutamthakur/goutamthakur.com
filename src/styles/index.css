@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f5f5f5;
+  --color-surface: #e6e6e6;
+  --color-surface-alt: #cbc8c4;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-border: #b8b5b1;
+  --color-primary: #5b4fe8;
+  --color-secondary: #8b7ff5;
+  --color-accent: #e85b4f;
+}
+
+@layer base {
+  .dark {
+    --color-bg: #1a1a1a;
+    --color-surface: #2a2a2a;
+    --color-surface-alt: #3a3a3a;
+    --color-text-primary: #e8e5e1;
+    --color-text-secondary: #a8a5a1;
+    --color-border: #4a4a4a;
+    --color-primary: #6b5fff;
+    --color-secondary: #9b8fff;
+    --color-accent: #ff6b5f;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-base font-sans;
+  }
+
+  .card {
+    @apply bg-surface rounded-2xl p-4 hover:scale-95 transition-transform duration-200 ease-out;
+  }
+
+  .card-h1 {
+    @apply text-xl font-semibold mb-2;
+  }
+
+  .card-h2 {
+    @apply text-lg font-semibold mb-2;
+  }
+
+  .card-desc {
+    @apply text-sm text-wrap;
+  }
+}
