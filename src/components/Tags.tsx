@@ -8,7 +8,7 @@ const Tags = ({ items }: TagsProps) => {
       {items.map((tag, idx) => (
         <span
           key={idx}
-          className="bg-bg text-sm px-2 py-1 rounded-md"
+          className="bg-bg text-sm px-3 py-1 rounded-xl"
         >
           {tag}
         </span>
