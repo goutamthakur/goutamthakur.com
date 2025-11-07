@@ -27,13 +27,26 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </div>
         </div>
 
-        <div className="m-6 -mb-6 -mr-6 w-full rounded-tl-2xl overflow-hidden flex-shrink-0">
-          <img
-            src={project.image}
-            alt={project.heading}
-            className="w-full h-64 md:h-80 object-cover object-bottom-right"
-          />
+        <div className="mt-6 -mr-6 -mb-6 w-[calc(100%+1.5rem)] rounded-tl-2xl overflow-hidden flex-shrink-0">
+          <div className="relative w-full aspect-video overflow-hidden">
+            <img
+              src={project.image}
+              alt={project.heading}
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
         </div>
+
+        {/* Container which centers the image */}
+        {/* <div className="mt-6 -mr-6 -mb-6 w-[calc(100%+1.5rem)] rounded-tl-2xl overflow-hidden flex-shrink-0">
+          <div className="relative w-full aspect-video overflow-hidden flex items-center justify-center">
+            <img
+              src={project.image}
+              alt={project.heading}
+              className="w-full h-full object-contain"
+            />
+          </div>
+        </div> */}
       </div>
     </a>
   );

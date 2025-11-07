@@ -17,14 +17,14 @@ const projects: ProjectCardDetails[] = [
       "Postgres",
     ],
     image: aryventoryWeb,
-    link: "https://aryventory.com"
+    link: "https://aryventory.com",
   },
   {
     heading: "Flight Booking System",
     desc: "A microservice driven backend project with flight, booking, notification and auth services.",
     tags: ["Backend", "Node.js", "Express.js", "Sequelize", "PostgreSQL"],
     image: flightBookingSystem,
-    link: "https://github.com/goutamthakur/flight-service"
+    link: "https://github.com/goutamthakur/flight-service",
   },
 ];
 
