@@ -19,6 +19,8 @@ const config: Config = {
         green: "var(--color-green)",
         blue: "var(--color-blue)",
         yellow: "var(--color-yellow)",
+        cream: "var(--color-cream)",
+        rose: "var(--color-rose)",
         border: "var(--color-border)",
       },
     },
