@@ -7,7 +7,7 @@
   --color-text-primary: #1a1a1a;
   --color-text-secondary: #4a4a4a;
   --color-border: #b8b5b1;
-  --color-green: #F0FCE1;
+  --color-green: #f0fce1;
   --color-blue: #f2f5f8;
   --color-yellow: #faf8f0;
   --color-cream: #fcfaed;
@@ -34,7 +34,7 @@
   }
 
   body {
-    @apply bg-bg text-base font-sans;
+    @apply bg-bg text-base font-mono;
     color: var(--color-text-primary);
   }
 
@@ -56,4 +56,20 @@
     @apply text-sm text-wrap;
     color: var(--color-text-secondary);
   }
+}
+
+@font-face {
+  font-family: "JetBrainsMonoLocal";
+  src: url("/fonts/jetbrains-mono/JetBrainsMono.woff2") format("woff2");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrainsMonoLocal";
+  src: url("/fonts/jetbrains-mono/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: 100 800;
+  font-style: italic;
+  font-display: swap;
 }
