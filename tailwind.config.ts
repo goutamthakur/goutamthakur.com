@@ -13,8 +13,8 @@ const config: Config = {
         surface: "var(--color-surface)",
         surfaceAlt: "var(--color-surface-alt)",
         text: {
-          base: "var(--color-text-primary)",
-          muted: "var(--color-text-secondary)",
+          primary: "var(--color-text-primary)",
+          secondary: "var(--color-text-secondary)",
         },
         green: "var(--color-green)",
         blue: "var(--color-blue)",

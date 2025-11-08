@@ -23,8 +23,8 @@ export const ThemeToggle = () => {
                 relative flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full
                 transition-all duration-200 ease-out
                 ${isSelected 
-                  ? "bg-green text-text-base scale-110" 
-                  : "text-text-muted hover:text-text-base hover:bg-surfaceAlt"
+                  ? "bg-green text-text-primary scale-110" 
+                  : "text-text-secondary hover:text-text-primary hover:bg-surfaceAlt"
                 }
               `}
               aria-label={label}
