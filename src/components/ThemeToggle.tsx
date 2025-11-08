@@ -12,7 +12,7 @@ export const ThemeToggle = () => {
 
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
-      <div className="flex items-center gap-2 bg-surface rounded-full p-0.5 shadow-lg">
+      <div className="flex items-center gap-2 bg-surface rounded-full p-0.5 shadow-lg border border-border">
         {themes.map(({ value, icon: Icon, label }) => {
           const isSelected = theme === value;
           return (
