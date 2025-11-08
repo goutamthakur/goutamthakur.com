@@ -12,7 +12,7 @@ export const ThemeToggle = () => {
 
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
-      <div className="flex items-center gap-2 bg-surface border border-border rounded-full p-0.5 shadow-lg">
+      <div className="flex items-center gap-2 bg-surface rounded-full p-0.5 shadow-lg">
         {themes.map(({ value, icon: Icon, label }) => {
           const isSelected = theme === value;
           return (
@@ -23,8 +23,8 @@ export const ThemeToggle = () => {
                 relative flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full
                 transition-all duration-200 ease-out
                 ${isSelected 
-                  ? "bg-green text-fg" 
-                  : "text-muted hover:text-fg hover:bg-surfaceAlt hover:scale-110"
+                  ? "bg-bg text-fg" 
+                  : "text-muted hover:text-fg hover:bg-surfaceAlt "
                 }
               `}
               aria-label={label}
