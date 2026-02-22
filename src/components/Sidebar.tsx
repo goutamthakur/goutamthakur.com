@@ -13,8 +13,7 @@ const Sidebar = () => {
       <div className="card">
         <h1 className="card-h2">Goutam Thakur</h1>
         <p className="card-desc">
-          Software developer with 1.6 years of experience working with React,
-          React Native, Node.js, Express, Sequelize, PostgreSQL, Spring Boot...
+        Software engineer with 2 years of experience building full-stack web and mobile applications using Spring Boot, Node.js, React, React Native, and AWS.
         </p>
       </div>
 
